@@ -91,5 +91,10 @@ z <- 3 + 2i
 
 typeof(x)
 
+# 1. Numeric: 3.14
+# 2. Integer: 42L
+# 3. Character: "hello"
+# 4. Logical: TRUE
+# 5. Complex: 2 + 3i
 
 
