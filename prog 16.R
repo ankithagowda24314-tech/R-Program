@@ -34,14 +34,13 @@ total_cost <- c(12.99, 8.50, 24.75, 15.00, 9.99) |>
   (\(x) x * 0.9)() |>
   round(2)
 
-discounted_prices
 
-# it's eqvivalent to:
+# it's equivalent to:
 total_cost <- c(12.99, 8.50, 24.75, 15.00, 9.99) |>
   (function(x) x * 0.9)() |>
   round(2)
 
-discounted_prices
+
 
 
 
